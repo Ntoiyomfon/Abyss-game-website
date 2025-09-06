@@ -1,4 +1,3 @@
-
 html {
     font-size: 62.5%;
 }
@@ -8,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url("image/FONDO\ +\ FILTERS+.png");
+    background-image: url("../image/FONDO + FILTERS+.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -189,7 +188,7 @@ header {
 }
 
 .game-overlay-wrapper {
-    background-image: linear-gradient(rgba(41, 30, 73, 99%), rgba(41, 30, 73, 99%)), url("image/image\ 1.png");
+    background-image: linear-gradient(rgba(41, 30, 73, 99%), rgba(41, 30, 73, 99%)), url("../image/image 1.png");
     overflow: hidden;
     background-position: center;
     background-size: cover;
@@ -233,7 +232,7 @@ header {
     border: 4em solid black;
     padding: 15em 20em;
     border-radius: 1.5em;
-    background-image: url("image/thumbnail.png");
+    background-image: url("../image/thumbnail.png");
     background-size: cover;
     background-position: center;
 
@@ -295,7 +294,7 @@ header {
 /* system requirement section */
 
 .system-requirements-overlay {
-    background-image: url("image/FONDO.png");
+    background-image: url("../image/FONDO.png");
     height: 800px;
 }
 
@@ -544,7 +543,7 @@ h2 {
 /* Gms */
 .Gms-overlay {
     height: 85em;
-    background-image: url("image/FONDO\ \(1\).png");
+    background-image: url("../image/FONDO (1).png");
     background-position: center;
     background-size: cover;
 }
