@@ -768,14 +768,21 @@ h2 {
 /* mobile responsiveness */
 
 @media (max-width: 768px) {
-    html {
+    html, body {
         font-size: 50%; /* Adjust base font size */
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
 
     .header-wrap, .game-feature-wrapper, .container, .media-review-wrapper {
         flex-direction: column;
         align-items: center;
-        max-width: 90%;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 
     .nav-wrap {
@@ -911,14 +918,19 @@ h2 {
     }
 
     .inner-wrap, .inner-wrap2, .inner-wrap3 {
-        display: none;
-    }
-
-    .box, .box2, .box3 {
-        display: none;
-    }
-
     .container {
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .box {
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
         flex-direction: column;
         gap: 1em;
     }
